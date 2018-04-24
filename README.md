@@ -1,3 +1,3 @@
 # webmaster_wp_test
 test - the parent themes for WP (twentyseventeen);
-text-child - the child theme (testwebmaster) for twentyseventeen, works only together with the parent theme, bootstrap4 is built into the theme
+text-child - the child theme (testwebmaster) for twentyseventeen. It works together with parent theme only. Bootstrap4 is built in testwebmadter
