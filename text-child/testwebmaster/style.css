@@ -1,0 +1,48 @@
+/*
+Theme Name: Webmaster Test
+Template: twentyseventeen
+Author: danilovmaster
+Description: child theme for twentyseventeen
+*/
+body{font-family:Roboto;font-size:17px}
+.container{width:1140px}
+.navigation_top{background:#f4f4f4;height:363px;}
+.main-navigation ul{list-style-type:none;width:60%}
+.main-navigation ul li a{color:#333}
+input[type="search"]{border-radius:30px; padding:0 10px; width:258px; height:37px; box-sizing:border-box;border:1px solid #fff}
+section#text-6{font-size:24px;color:rgb(26, 26, 26);text-transform:uppercase;line-height:1.2;padding:12px 0 0}
+#content{margin:20px 0}
+.main_page_margin_top_minor{margin:-310px 0 40px}
+.btn-white{background:#fff}
+.orange{background:#ec9d13;color:#fff}
+.blue{background:#2073b2;color:#fff}
+.blue p{font-size:22px}
+.grey{color:#808080;font-size:16px}
+.prev-next-button{right:3%;margin:-50px 0 0}
+.prev-next-button  .btn-primary{display:inline-block;color:#fff}
+.prev-next-button  .btn-primary.prev:before{content:'\25c0'}
+.prev-next-button  .btn-primary.next:before{content:'\25b6'}
+.date_section{bottom:10%}
+.date_section span{font-size:13px}
+.date_section a{font-size:10px}
+footer{background:#191919;height:244px;}
+@media (max-width:1200px){
+.container{width:100%}
+input[type="search"]{width:70%}
+.main-navigation ul{width:75%}
+}
+@media (max-width:800px){
+.container{max-width:100%}
+button.menu:before{content:'\2630';color:#fff;display:inline-block;font-size:20px}
+.main-navigation ul{position:absolute;z-index:10;background:#fff;left:0;width:100%}
+.main-navigation ul li{border-bottom:1px solid #ccc;margin:14px 0}
+.position-absolute.date_section{position:relative!important;margin:40px 0 0}
+}
+@media (max-width:500px){
+.custom-logo{max-width:100%}
+input[type="search"]{width:100%}
+.blue p{min-height:140px}
+}
+@media (max-width:500px){
+section#text-6{font-size:17px}
+}
